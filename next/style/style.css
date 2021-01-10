@@ -1,0 +1,51 @@
+body{
+  width: 100vw;
+  font-family: "Muller Thin DEMO";
+  margin: inherit;
+
+
+}
+header {
+  background-color: #000;
+  height: 7vh;
+  margin-bottom: 5px;
+  padding-top: 10px;
+  padding-left: 10px;
+  color: white;
+  font-size:3vw;
+  font-family: Impact, fantasy
+}
+.middle {
+  height: 90.7vh;
+  background-color:#000;
+  background: -moz-radial-gradient(center, ellipse cover, #000, #888686);
+  background: -webkit-linear-gradient(top, #000, #888686);
+  background: -o-linear-gradient(top, #000,#888686);
+  background: -ms-linear-gradient(top, #000, #888686);
+  color: white;
+  text-align: center;
+}
+@media only screen and (max-width:980px) {
+  body{
+    width: 100%;
+    font-family: Monotype Corsiva;
+    margin: inherit;
+
+  }
+  header {
+    background-color: #000;
+    height: 4vh;
+    color: white;
+    font-size:6vw;
+  }
+  .middle {
+    height: 94vh;
+    background-color:#000;
+    background: -moz-radial-gradient(center, ellipse cover, #000, #888686);
+    background: -webkit-linear-gradient(top, #000, #888686);
+    background: -o-linear-gradient(top, #000,#888686);
+    background: -ms-linear-gradient(top, #000, #888686);
+    color: white;
+    text-align: center;
+  }
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8"/>
+    <meta http-equiv="Cache-Control" content="no-cache">
+    <meta http-equiv="Refresh" content="1800" />
+    <title>Расписание 209-группа</title>
+    <link rel="stylesheet" href="../style/style1.css"/>
+    <link rel="stylesheet" href="../style/preloader1.css"/>
+    <script type="text/javascript" src="../java/script.js"></script>
+    <script type="text/javascript" src="../java/script1.js"></script>
+    <SCRIPT type="text/javascript">
+      document.ondragstart = test;
+      //запрет на перетаскивание
+      document.onselectstart = test;
+      //запрет на выделение элементов страницы
+      document.oncontextmenu = test;
+      //запрет на выведение контекстного меню
+      function test() {
+      return false
+      }
+    </SCRIPT>
+    <title></title>
+  </head>
+  <body class=body1 onload="myFunction()">
+    <div id="loader">
+      <div id="container">
+        <div class="item-1"></div>
+        <div class="item-2"></div>
+        <div class="item-3"></div>
+        <div class="item-4"></div>
+        <div class="item-5"></div>
+      </div>
+
+
+            </div>
+            <script>
+              var myVar;
+
+              function myFunction() {
+                myVar = setTimeout(showPage, 2000);
+              }
+
+              function showPage() {
+                document.getElementById("loader").style.display = "none";
+                document.getElementById("l_main").style.display = "block";
+                document.getElementById("l_square").style.display = "block";
+              }
+</script>
+    <header class="top">
+      Расписание
+    </header>
+        <iframe src="time/40e1b9e9303670ca252c29359e77570f-1.html"></iframe>
+      <div class = footer>
+        <input type="button" onclick="history.back();" value="Назад"/>
+        <div class=obn>Обновлено <br>09.2020</div>
+      </div>
+
+  </body>
+</html>

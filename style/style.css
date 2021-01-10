@@ -1,0 +1,13 @@
+*, *:before, *:after {
+	box-sizing: border-box;
+}
+
+body {
+	height: 97.4vh;
+	width: 90vw;
+  background-color:#000;
+  background: -moz-radial-gradient(center, ellipse cover, #000, #888686);
+  background: -webkit-linear-gradient(top, #000, #888686);
+  background: -o-linear-gradient(top, #000,#888686);
+  background: -ms-linear-gradient(top, #000, #888686);
+}
